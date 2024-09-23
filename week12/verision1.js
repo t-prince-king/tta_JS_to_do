@@ -47,16 +47,16 @@ class Task {
 
     updateTaskDescription(newDescription) {
         this.description = newDescription
-        console.log("Task Description Updated Successfully");   
+        console.log("Task Descri  ption Updated Successfully");   
     }
 
-    updateTaskCategory(newCategory) {
+    updateTaskCategory(   newCategory) {
         this.category = newCategory
-        console.log("Task Category Updated Successfully");   
+        console.log("    Task Category Updated Successfully");   
     }
 }
 
-let task1 = new Task("Buy Groceries", "Get milk, eggs and bread from the store.", "Shopping");
+let task1 = new Task("     Buy Groceries", "Get milk, eggs and bread from the store.", "Shopping");
 
 //.................Calling the Functions......................
 task1.displayDetails();
